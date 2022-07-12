@@ -5,7 +5,7 @@
 ### Why do we use functions in **JavaScript**?
 
 > In JavaScript, a function allows you to define a block of code, give it a name and then execute it as many times as you want. A JavaScript function can be defined using _function_ keyword.
-> **Example:**
+**Example:**
 
 function multiply(num1,num2) {
 let result = num1 \* num2;
@@ -15,7 +15,7 @@ return result;
 ### What is Function Invocation?
 
 > The function invocation is used to execute the code inside the curly braces in the function definition by adding () after function name after it has been defined to invoke that particular function.
-> **Example:**
+**Example:**
 
 function car( color ) {
 return color;
@@ -26,7 +26,7 @@ car( red );
 
 > In JavaScript, functions are called Function Objects because they are objects. Just like objects, functions have properties and methods, they can be stored in a variable or an array, and be passed as arguments to other functions.
 
-> **Example:**
+**Example:**
 > function message() {
 
     console.log("Greetings!");
@@ -48,7 +48,7 @@ console.log(message instanceof string); // => false
 > Normally, strings like "you can do it", cannot have methods or properties because they are not objects.JavaScript treats strings as objects when executing methods and properties.
 > The first character is in position 0, the second in 1, and so on.
 
-> **Example:**
+**Example:**
 > let care1 = "bmw";
 > let car2 = 'audi';
 
@@ -76,8 +76,8 @@ console.log(message instanceof string); // => false
 
 ### In how many ways can we traverse through an array in Javascript?
 
-> There are multiple ways one can iterate over an array in Javascript. The most useful ones are mentioned below. ...
-> Using while loop.
-> Using forEach method.
-> Using every method.
-> Using map.
+> There are multiple ways one can iterate over an array in Javascript. The most useful ones are mentioned below :
+1. Using while loop.
+2. Using forEach method.
+3. Using every method.
+4. Using map.
