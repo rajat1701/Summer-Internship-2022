@@ -5,37 +5,37 @@
 ### Why do we use functions in **JavaScript**?
 
 > In JavaScript, a function allows you to define a block of code, give it a name and then execute it as many times as you want. A JavaScript function can be defined using _function_ keyword.
+
 **Example:**
 
-function multiply(num1,num2) {
-let result = num1 \* num2;
-return result;
-}
+>function multiply(num1,num2) { <br>
+>let result = num1 \* num2;<br>
+>return result;<br>
+>}
 
 ### What is Function Invocation?
 
 > The function invocation is used to execute the code inside the curly braces in the function definition by adding () after function name after it has been defined to invoke that particular function.
+
 **Example:**
 
-function car( color ) {
-return color;
-}
-car( red );
+>function car( color ) {<br>
+> return color;<br>
+>}<br>
+>car( red );
 
 ### Does a function behave like an object in Javascript? Prove it by an example.
 
 > In JavaScript, functions are called Function Objects because they are objects. Just like objects, functions have properties and methods, they can be stored in a variable or an array, and be passed as arguments to other functions.
 
 **Example:**
-> function message() {
 
-    console.log("Greetings!");
-
-}
-
-console.log(typeof message); // => function
-console.log(message instanceof Object); // => true
-console.log(message instanceof string); // => false
+>function message() {<br>
+> console.log("Greetings!");<br>
+>}<br>
+>console.log(typeof message); // => function<br>
+>console.log(message instanceof Object); // => true<br>
+>console.log(message instanceof string); // => false
 
 ### What are Events in Javascript?
 
