@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question 3</title>
+  </head>
+  <body>
+    <h1>
+      Question 3 : Show all the values of an array in a html webpage using DOM
+      and forEach method?
+    </h1>
+    <p>Answer :</p>
+    <div id="ar"></div>
+  </body>
+  <script>
+    const arr = [4, 3, 8, 2];
+    arr.forEach((item) => (document.getElementById("ar").innerText += item));
+  </script>
+</html>
+
+<!-- 
+
+OUTPUT :
+
+Question 3 : Show all the values of an array in a html webpage using DOM and forEach method?
+
+Answer :
+
+4382
+
+ -->
