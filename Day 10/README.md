@@ -1,8 +1,8 @@
 # TypeScript Quiz (Basic Level 1)
 
-## Theory -
+## Theory:
 
-### 1. What are the basic datatypes in TypeScript ?
+### What are the basic datatypes in TypeScript ?
 
 > **NUMBERS**: Similar to numbers in JavaScript.<br>
 > EXAMPLE :
@@ -50,7 +50,7 @@
 > console.log(mytuple[1]);
 > ```
 
-### 2. What is Generic data type ?
+### What is Generic data type ?
 
 > Generics in TypeScript is a tool which enables us to create reusable components. Generics uses the type variable \<T> , a special kind of variable that denotes types. It creates a component that can work with a variety of data types rather than a single data type.<br>
 > EXAMPLE :
@@ -71,7 +71,7 @@
 > - Compile-Time Checking.
 > - No need of Typecasting.
 
-### 3. What is type inferring in TS ?
+### What is type inferring in TS ?
 
 > In many situations, Type inference is used to provide type information when no explicit type annotation is provided. It is useful when there are no explicit type annotation available.<br>
 > EXAMPLE :
@@ -82,4 +82,38 @@
 > }
 > let fact1: number = fact(10); // Compiled.
 > let fact2: string = fact(10); // Compilation error.
+> ```
+
+### What are the possible ways to define typing for functions ?
+
+> There are multiple ways to define types for functions:
+>
+> - **Method Signatures**:
+>   When defining an object type, its methods can easily be described by providing signatures as follows:
+> - **Function Type Literals**:
+>   This type of function typing is typically used in the signature of a higher-order function i.e. a function which accepts functions as parameters or returns a function.
+> - **Object Type Literals With Call or Construct Signatures**:
+>   This is same as the fact that functions in JS are just special objects that can be called again and again.
+
+### How to define Generic types for classes ?
+
+> To define generic types, we can use the generic type parameter in '`< >`' brackets.
+> EXAMPLE :
+>
+> ```ts
+> class employeeData<sname, sroll> {
+>   private Id: roll;
+>   private Name: name;
+>   setValue(id: roll, name: name): void {
+>     this.Id = id;
+>     this.Name = name;
+>   }
+>
+>   display(): void {
+>     console.log(`Id = ${this.Id}, Name = ${this.Name}`);
+>   }
+> }
+> let e1 = new employeeData<number, string>();
+> student1.setValue(194, "Rajat");
+> student1.display();
 > ```
